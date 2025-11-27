@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Subdomain Takeover — kiraxploit</title>
+<style>
+    body {
+        background: #000;
+        color: #00ff9f;
+        font-family: "Courier New", monospace;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .glow {
+        font-size: 38px;
+        text-shadow: 0 0 8px #00ff9f, 0 0 16px #00ff9f;
+        margin-bottom: 20px;
+    }
+
+    .terminal-box {
+        border: 1px solid #00ff9f;
+        padding: 20px;
+        width: 70%;
+        margin: auto;
+        background: rgba(0, 255, 159, 0.05);
+    }
+
+    .cursor {
+        animation: blink 1s infinite;
+    }
+    @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+</style>
+</head>
+<body>
+
+<div class="glow">Subdomain Takeover</div>
+
+<div class="terminal-box">
+    <p>> takeover by <strong>kiraxploit</strong> <span class="cursor">█</span></p>
+    <p>> this domain points to an unclaimed resource.</p>
+    <p>> please update DNS configuration or remove the CNAME record.</p>
+</div>
+
+</body>
+</html>
